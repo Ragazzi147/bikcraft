@@ -51,6 +51,9 @@
   width: 24px;
 } 
 
+.bicicletas-lista h3 {
+  white-space: nowrap;
+}
 .bicicletas-lista li span {
   padding-left: 20px;
 }
