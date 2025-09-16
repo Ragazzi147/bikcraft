@@ -7,7 +7,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px; 
-
+  align-items: center;
 }
 
 .introducao-conteudo {
@@ -17,6 +17,7 @@
 
 
 .introducao img {
+  width: 100%;
   height: 100%;
   object-fit: cover; 
   border-radius: 4px;
