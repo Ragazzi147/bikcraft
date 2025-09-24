@@ -1,5 +1,6 @@
 .bicicletas-bg {
-  background: var(--cor-11);
+  background: linear-gradient(to right, var(--cor-0) 30%, var(--cor-11)0%);
+  
 }
 
 .bicicletas {
@@ -71,10 +72,14 @@
 }
 
 @media (max-width: 800px) {
+  .bicicletas-bg {
+  background: var(--cor-11);
+  
+}
   .bicicletas{
     grid-template-columns: 1fr;
     gap: 20px;
-    padding: 40px 0px;
+    padding: 40px 20px;
   }
 }
 
