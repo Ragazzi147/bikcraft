@@ -1,3 +1,7 @@
+#bicicleta .titulo p {
+    text-transform: uppercase;
+}
+
 .bicicleta {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -95,3 +99,26 @@
     color: var(--cor-6);
 }
 
+@media (max-width: 800px) {
+    .bicicleta{
+        grid-template-columns: 1fr;
+        padding: 40px 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .bicicleta-imagens{
+        grid-row: 2;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .bicicleta-informacoes{
+        grid-template-columns: 1fr;
+       
+    }
+    .bicicleta-comprar{
+        grid-template-columns: 1fr;
+       
+    }
+}
