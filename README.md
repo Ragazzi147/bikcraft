@@ -1,4 +1,3 @@
-
 <h1>Bikcraft</h1>
         <p>Este é o site oficial da Bikcraft, uma marca de bicicletas elétricas de alta precisão e qualidade. O projeto foi desenvolvido com foco em design responsivo e acessibilidade, garantindo que a marca se conecte com seus clientes de forma profissional e moderna.</p>
 
@@ -17,6 +16,6 @@
             <li><strong>Código Limpo:</strong> Estrutura de código organizada, modular e fácil de manter.</li>
             <li><strong>Acessibilidade:</strong> Desenvolvido com foco nas melhores práticas de acessibilidade para garantir que o site seja inclusivo.</li>
         </ul>
-    </div>
+    </div>  <script src="./js/script.js"></script>
 </body>
 </html>
